@@ -11,10 +11,12 @@ import {
 	disconnectWagmi,
 	defaultConfig,
 	configuredConnectors,
+	wagmiConfig
 } from './stores/wagmi';
 
 
 export {
+	wagmiConfig,
 	defaultConfig,
 	configuredConnectors,
 	wagmiLoaded,
